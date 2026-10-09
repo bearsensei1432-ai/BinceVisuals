@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bince Visuals · Photography in Taytay, Rizal</title>
+<meta name="description" content="Bince Visuals Photography: transforming your ordinary moments into cinematic visuals. Personal portfolio and hobbyist gallery based in Taytay, Rizal.">
+<meta name="theme-color" content="#0d0f12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230d0f12'/%3E%3Ccircle cx='32' cy='32' r='10' fill='%23d6a35e'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bince Visuals">
+<meta property="og:description" content="Transforming your ordinary moments into cinematic visuals.">
+<meta property="og:image" content="images/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;800;900&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><i></i>Bince Visuals</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#series">Series</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero wrap">
+    <div class="slate mono"><span>Taytay, Rizal</span><span>Personal portfolio &amp; hobbyist gallery</span></div>
+    <div class="frame">
+      <div class="scene s-garden"></div>
+      <span class="slot-label" style="left:auto;right:16px;bottom:auto;top:44px">Hero photo slot</span>
+      <img class="photo" src="images/hero.jpg" alt="Featured photograph by Bince Visuals" fetchpriority="high" onerror="this.remove()">
+      <span class="rec mono" style="color:var(--paper)">REC</span>
+      <span class="tc" id="tc">00:00:00:00</span>
+      <h1>Bince<span>Visuals</span></h1>
+    </div>
+    <div class="under">
+      <p class="lede">Transforming your ordinary moments into <em>cinematic visuals.</em></p>
+      <div>
+        <p>Hi, I'm Bince. I don't just take photos; I capture vibes. This is my personal portfolio and hobbyist gallery.</p>
+        <div class="cta-row">
+          <a class="btn" href="#work">View the work →</a>
+          <a class="btn ghost" href="https://www.facebook.com/bincevisuals" target="_blank" rel="noopener">Message on Facebook ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="series">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Series</h2>
+        <span class="mono">Tap a reel to filter the gallery</span>
+      </div>
+      <div class="reels">
+        <button class="reel" data-go="denim">
+          <div class="ph"><div class="scene s-denim"></div><span class="slot-label">Cover photo slot</span><img class="photo" src="images/series/denim.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+          <div class="meta mono"><span>Reel A</span><span id="cnt-denim"></span></div>
+          <h3>Denim &amp; Leather</h3>
+          <p>Classic fabrics, hard light, and a forward-looking attitude.</p>
+        </button>
+        <button class="reel" data-go="details">
+          <div class="ph"><div class="scene s-boots"></div><span class="slot-label">Cover photo slot</span><img class="photo" src="images/series/details.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+          <div class="meta mono"><span>Reel B</span><span id="cnt-details"></span></div>
+          <h3>Boots &amp; Hats</h3>
+          <p>Close-up details that carry the whole outfit.</p>
+        </button>
+        <button class="reel" data-go="night">
+          <div class="ph"><div class="scene s-garden"></div><span class="slot-label">Cover photo slot</span><img class="photo" src="images/series/night.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+          <div class="meta mono"><span>Reel C</span><span id="cnt-night"></span></div>
+          <h3>After Dark</h3>
+          <p>Warm lamps, cool shadows, quiet streets.</p>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Work</h2>
+        <div class="filters" role="group" aria-label="Filter gallery">
+          <button class="chip" data-f="all" aria-pressed="true">All</button>
+          <button class="chip" data-f="denim" aria-pressed="false">Denim &amp; Leather</button>
+          <button class="chip" data-f="details" aria-pressed="false">Boots &amp; Hats</button>
+          <button class="chip" data-f="night" aria-pressed="false">After Dark</button>
+        </div>
+      </div>
+      <div class="sheet" id="sheet"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about">
+      <div class="portrait"><div class="scene s-hat"></div><span class="slot-label">Photo of Bince with camera</span><img class="photo" src="images/about/bince.jpg" alt="Bince with his camera" loading="lazy" onerror="this.remove()"></div>
+      <div>
+        <span class="mono">About</span>
+        <h2>Hi, I'm Bince.</h2>
+        <p>I don't just take photos; I capture vibes. Transforming your ordinary moments into cinematic visuals. ✨</p>
+        <p class="dim">Bince Visuals Photography. Personal portfolio &amp; hobbyist gallery, based in Taytay, Rizal.</p>
+        <div class="specs">
+          <div><span class="mono">Shoots</span><b>Everyday Moments</b></div>
+          <div><span class="mono">Look</span><b>Cinematic</b></div>
+          <div><span class="mono">Base</span><b>Taytay, Rizal</b></div>
+        </div>
+        <p class="note">The fastest way to reach me is a message on my <a href="https://www.facebook.com/bincevisuals" target="_blank" rel="noopener">Facebook page</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact">
+      <h2>Say<br><span>hello.</span></h2>
+      <div class="links">
+        <div class="row"><span class="mono">Facebook · Preferred</span><a class="val" href="https://www.facebook.com/bincevisuals" target="_blank" rel="noopener">facebook.com/bincevisuals</a><span class="mono">↗</span></div>
+        <div class="row"><span class="mono">Phone</span><span class="val" id="phone">0995 083 9930</span><button class="copy" data-copy="phone">Copy</button></div>
+        <div class="row"><span class="mono">Email</span><span class="val" id="email">bincevisualsphotography@gmail.com</span><button class="copy" data-copy="email">Copy</button></div>
+        <div class="row"><span class="mono">Instagram</span><a class="val" href="https://www.instagram.com/bincevisualsphotography" target="_blank" rel="noopener">@bincevisualsphotography</a><span class="mono">↗</span></div>
+        <div class="row"><span class="mono">TikTok</span><a class="val" href="https://www.tiktok.com/@kbb0621" target="_blank" rel="noopener">@kbb0621</a><span class="mono">↗</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap mono"><span>© 2026 Bince Visuals</span><span>Taytay, Rizal · All photographs by Bince</span></div>
+</footer>
+
+<nav class="tabbar" aria-label="Sections">
+  <a href="#top" data-t="top"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="1"/><path d="M3 9h18M3 15h18"/></svg>Home</a>
+  <a href="#work" data-t="work"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="10"/><rect x="13" y="3" width="8" height="6"/><rect x="3" y="15" width="8" height="6"/><rect x="13" y="11" width="8" height="10"/></svg>Work</a>
+  <a href="#about" data-t="about"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>About</a>
+  <a href="#contact" data-t="contact"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg>Contact</a>
+</nav>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <div class="lb-top"><span class="mono" id="lb-count"></span><button class="close" id="lb-close" aria-label="Close">✕</button></div>
+  <div class="lb-stage">
+    <button class="nav-btn" id="lb-prev" aria-label="Previous photo">←</button>
+    <div class="lb-img" id="lb-img"><div class="scene" id="lb-scene"></div><span class="slot-label">Full-size photo slot</span><img class="photo" id="lb-photo" alt="" hidden></div>
+    <button class="nav-btn" id="lb-next" aria-label="Next photo">→</button>
+  </div>
+  <div class="lb-bot"><span class="lb-title" id="lb-title"></span><span class="mono" id="lb-exif"></span></div>
+</div>
+
+<script src="js/photos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

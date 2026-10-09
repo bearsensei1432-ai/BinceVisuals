@@ -1,0 +1,17 @@
+Drop Bince's photos into these folders using these exact file names.
+Any photo that's missing just shows the dark placeholder, so you can add them a few at a time.
+
+images/hero.jpg               Big photo at the top. Wide/landscape, about 2400px wide.
+images/about/bince.jpg        Photo of Bince for the About section. Portrait (tall).
+
+images/series/denim.jpg       Cover for "Denim & Leather"  (tall, 4:5)
+images/series/details.jpg     Cover for "Boots & Hats"     (tall, 4:5)
+images/series/night.jpg       Cover for "After Dark"       (tall, 4:5)
+
+images/gallery/denim-01.jpg ... denim-04.jpg
+images/gallery/details-01.jpg ... details-04.jpg
+images/gallery/night-01.jpg ... night-04.jpg
+
+To add more gallery photos or rename captions, edit js/photos.js.
+File names are case-sensitive on GitHub: use lowercase .jpg, not .JPG.
+Keep each photo under ~500 KB (about 2000px on the long side) so the site loads fast on mobile data.
